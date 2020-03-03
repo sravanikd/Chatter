@@ -1,0 +1,91 @@
+body {
+  background-color: #e6ecf0;
+
+}
+
+/* Nav */
+
+.navbar{
+  margin-bottom: 1rem;
+}
+
+.navbar a{
+  font-weight: bold;
+  color:whitesmoke;
+}
+
+.navbar a:hover{
+  color:black;
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+.navbar-brand > p > img{
+  display: inline-block;
+  width:20px;
+  height: 25px;
+  margin-bottom:2px;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+ul.nav.navbar-nav li{
+  margin:0 0.5rem;
+}
+
+.onboarding > .navbar{
+  background-color: skyblue;
+  /* background-image: url("./images/navbar-bg1.jpeg"); */
+  background-size: 100% 100%;
+}
+
+.home-hero{
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  top:0;
+  left:0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  background-image: url('./images/bg.jpg');
+  background-color:slategray;
+  text-align: center;
+  padding:1rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color:#e6ecf0;
+  background-size: cover;
+
+  
+}
+
+#messages .list-group-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 7px 20px 12px;
+}
+
+#messages:not(.no-hover) .list-group-item:hover {
+  background-color: #e6ecf0;
+}
+
+.timeline-image {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin: 2px 30px 10px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+a.btn.btn-danger,
+a.btn.btn-danger:hover {
+  color: white;
+}
+
+
